@@ -117,8 +117,6 @@ def start_app():
         dpg.add_text('Расшифровать файл')
         dpg.bind_font(default_font)
 
-    dpg.bind_theme(global_theme)
-
     # dearpygui start
     dpg.show_viewport()
     dpg.start_dearpygui()
